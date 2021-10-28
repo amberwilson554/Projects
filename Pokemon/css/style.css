@@ -1,0 +1,99 @@
+div.img {
+    transition: transform .2s ease-in-out;
+}
+div.img:hover {
+    transform: rotateX(180deg);
+    }
+div.pokemonMoves h2 {
+    background-color: #b6ff00;
+    border: 15px inset #00ff90;
+    border-radius: 5px;
+    display: flex;
+    font-family: 'Snap ITC';
+    font-size: 75px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+div.pokemonMoves p {
+    background-color: #b6ff00;
+    border: 15px inset #00ff90;
+    border-radius: 5px;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Snap ITC';
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+div.slide-slow {
+    overflow: hidden;
+    width: 100%;
+}
+
+div.slide-slow div.inner {
+    animation: slide-slow 10s;
+    margin-top: 0%;
+}
+@keyframes slide-slow {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.content {
+    grid-area: content;
+}
+.footer {
+    grid-area: footer;
+}
+.header {
+    grid-area: header;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.box {
+    background-color: #ff6a00;
+    border-radius: 5px;
+    padding: 5px;
+}
+.header,
+.footer {
+    background-color: #00ffff;
+    border: 10px inset #00ff90;
+    border-radius: 5px;
+    margin: 10px;
+}
+.wrapper {
+    background-color: #00ffff;
+    border: 15px inset #ff006e;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-areas:
+        "....... header header"
+        "sidebar content content"
+        "footer  footer  footer";
+}
+#button {
+    border-color: #ff006e;
+    border-style: outset;
+    font-size: 20px;
+}
+#pokemonName {
+    font-family: 'Snap ITC';
+    font-size: 50px;
+    margin: 2px, 2px;
+}
+#searchbar {
+    align-content: center;
+    border-color: #ff006e;
+    font-size: 20px;
+}
+
+
