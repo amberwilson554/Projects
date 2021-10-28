@@ -1,0 +1,81 @@
+<!--
+    Max note: 20pts
+
+    Structure - 2 pts
+    1. By only looking at the html document, identify and create the missing files.  ---done
+    2. Create a custom logo and use it.  ---done
+
+    Header - 3pts
+    1. Logo and navigation must be responsive. | Worths 2 pts.  ---done
+    2. Add an animation on hovering logo and items in the navigation. ---done
+
+    Main - 3pts
+    1. Add a name to the h1 element and add that same name in the alt attribute in the header and footer's logo. ---done
+    2. Add a picture of anything and add an alternate description to it.  ---done
+    3. Content in main must be responsive. ---done
+
+    Footer - 4pts
+    1. Background color must be dark themed or white themed and the logo the opposite color. ---done
+    2. Center the Copyright. ---done
+    3. Apply positioning to the footer so the logo stays to the left and the links to the right. ---done
+    4. Content must be responsive. ---done
+
+    CSS - 8pts
+    1. Add a background color to the header. ---done
+    2. Add a background color to the footer  ---done
+    3. Erase the dots from the links ---done
+    4. Erase the underline from the links ---done
+    5. Position the links horizontally ---done
+    6. The header must occupy a minimum of 80px in height.---done
+    7. The footer must occupy a minimum of 120px in height. ---done
+    8. The main content must occupy the rest of the space, this means the footer should rest at the bottom regardless of the content.
+
+-->
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+    <head>
+        <title>Final Assignment</title>
+        <link rel="stylesheet" href="css/styles.css">
+    
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_SharedWithUsers msdt:dt="string">MSSA-CCAD3 Members</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_SharedWithUsers>
+<mso:SharedWithUsers msdt:dt="string">7;#MSSA-CCAD3 Members</mso:SharedWithUsers>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+    <body>
+        
+        <header>
+            <link rel="icon" href="images/logo.png">
+            <img src="images/logo.png" alt="Amber's logo" title="Amber's Logo" id="myLogo"> 
+            <nav>
+                <div class="zoom">
+                    <a href="Assignment.html">Home</a>
+                    <a href="About.html">About</a>
+                    <a href="Contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+ 
+        <main>
+            <div class="container">
+                <h1>Welcome to Amber's Website</h1>
+                <img src="images/dog.png" alt="dog">
+            </div>
+        </main>
+       
+        <footer> 
+          <img src="images/logo.png" alt="Amber's logo" id="myFooterLogo">
+            <div class="footer-bottom">
+                <p>Copyright | 2021 All rights reserved.</p>
+                <nav>
+                     <a href="Assignment.html">Home</a>
+                     <a href="About.html">About</a>
+                     <a href="Contact.html">Contact</a>
+                </nav>
+            </div>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
