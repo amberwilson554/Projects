@@ -1,0 +1,16 @@
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\obj\Debug\net5.0\FirstAssignment.csproj.AssemblyReference.cache
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\obj\Debug\net5.0\FirstAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\obj\Debug\net5.0\FirstAssignment.AssemblyInfoInputs.cache
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\obj\Debug\net5.0\FirstAssignment.AssemblyInfo.cs
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\obj\Debug\net5.0\FirstAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\bin\Debug\net5.0\FirstAssignment.exe
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\bin\Debug\net5.0\FirstAssignment.deps.json
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\bin\Debug\net5.0\FirstAssignment.runtimeconfig.json
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\bin\Debug\net5.0\FirstAssignment.runtimeconfig.dev.json
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\bin\Debug\net5.0\FirstAssignment.dll
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\bin\Debug\net5.0\ref\FirstAssignment.dll
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\bin\Debug\net5.0\FirstAssignment.pdb
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\obj\Debug\net5.0\FirstAssignment.dll
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\obj\Debug\net5.0\ref\FirstAssignment.dll
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\obj\Debug\net5.0\FirstAssignment.pdb
+C:\Users\Amber\source\repos\FirstAssignment\FirstAssignment\obj\Debug\net5.0\FirstAssignment.genruntimeconfig.cache
