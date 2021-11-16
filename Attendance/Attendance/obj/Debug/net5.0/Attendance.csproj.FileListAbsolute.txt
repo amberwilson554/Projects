@@ -1,0 +1,16 @@
+C:\Users\Amber\source\repos\Attendance\Attendance\bin\Debug\net5.0\Attendance.exe
+C:\Users\Amber\source\repos\Attendance\Attendance\bin\Debug\net5.0\Attendance.deps.json
+C:\Users\Amber\source\repos\Attendance\Attendance\bin\Debug\net5.0\Attendance.runtimeconfig.json
+C:\Users\Amber\source\repos\Attendance\Attendance\bin\Debug\net5.0\Attendance.runtimeconfig.dev.json
+C:\Users\Amber\source\repos\Attendance\Attendance\bin\Debug\net5.0\Attendance.dll
+C:\Users\Amber\source\repos\Attendance\Attendance\bin\Debug\net5.0\ref\Attendance.dll
+C:\Users\Amber\source\repos\Attendance\Attendance\bin\Debug\net5.0\Attendance.pdb
+C:\Users\Amber\source\repos\Attendance\Attendance\obj\Debug\net5.0\Attendance.csproj.AssemblyReference.cache
+C:\Users\Amber\source\repos\Attendance\Attendance\obj\Debug\net5.0\Attendance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amber\source\repos\Attendance\Attendance\obj\Debug\net5.0\Attendance.AssemblyInfoInputs.cache
+C:\Users\Amber\source\repos\Attendance\Attendance\obj\Debug\net5.0\Attendance.AssemblyInfo.cs
+C:\Users\Amber\source\repos\Attendance\Attendance\obj\Debug\net5.0\Attendance.csproj.CoreCompileInputs.cache
+C:\Users\Amber\source\repos\Attendance\Attendance\obj\Debug\net5.0\Attendance.dll
+C:\Users\Amber\source\repos\Attendance\Attendance\obj\Debug\net5.0\ref\Attendance.dll
+C:\Users\Amber\source\repos\Attendance\Attendance\obj\Debug\net5.0\Attendance.pdb
+C:\Users\Amber\source\repos\Attendance\Attendance\obj\Debug\net5.0\Attendance.genruntimeconfig.cache
