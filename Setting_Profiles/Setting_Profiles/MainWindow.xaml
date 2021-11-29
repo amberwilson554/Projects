@@ -1,0 +1,59 @@
+﻿<Window x:Class="Setting_Profiles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Setting_Profiles"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800" ResizeMode="NoResize" Background="Black" BorderBrush="Black" Foreground="#FF5BF907">
+
+
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image x:Name ="Screen_Img" Source="/Resources/Screen.png" HorizontalAlignment="Left" Height="Auto" Margin="2,6,0,0" VerticalAlignment="Top" Width="Auto" Grid.ColumnSpan="3" Grid.RowSpan="4" Stretch="UniformToFill"/>
+
+        <Button x:Name="Profile_1" Content="Profile 1" Height="Auto" Width="Auto" MaxHeight="50" Margin="2,-6,8,19" Background="#FF11DA46" Grid.Column="0" Click="ProfileButtonClicked" FontWeight="Bold" FontSize="20" UseLayoutRounding="False" />
+        <Button x:Name="Profile_2" Content="Profile 2" Height="Auto" Width="Auto" MaxHeight="50" Margin="2,99,8,25" Background="#FF11DA46" Click="ProfileButtonClicked" FontWeight="Bold" FontSize="20" Grid.RowSpan="2"/>
+        <Button x:Name="Profile_3" Content="Profile 3" Height="Auto" Width="Auto" MaxHeight="50" Margin="2,96,8,28" Background="#FF11DA46" Grid.Row="1" Click="ProfileButtonClicked" FontWeight="Bold" FontSize="20" Grid.RowSpan="2"/>
+        <Button x:Name="Profile_4" Content="Profile 4" Height="Auto" Width="Auto" MaxHeight="50" Margin="2,98,8,26" Background="#FF11DA46" Grid.Row="2" Click="ProfileButtonClicked" FontWeight="Bold" FontSize="20" Grid.RowSpan="2"/>
+
+        <RadioButton x:Name="Easy" Content="Easy" Height="Auto" IsChecked="True" Grid.Column="1" Grid.Row="0" Margin="32,59,83,95" Background="#FF13F44E" Foreground ="#FF13F44E" FontSize="20" Click="RadioButtonClicked" Grid.RowSpan="2"/>
+        <RadioButton x:Name="Medium" Content="Medium" Height="Auto" IsChecked= "False" Grid.Column="1" Grid.Row="0" Margin="114,61,239,93" Background="#FF13F44E" Foreground ="#FF13F44E" FontSize="20" Click="RadioButtonClicked" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+        <RadioButton x:Name="Hard" Content="Hard" Height="Auto" IsChecked="False" Grid.Column="1" Grid.Row="0" Margin="227,59,184,95" Background="#FF13F44E" Foreground ="#FF13F44E" FontSize="20" Click="RadioButtonClicked" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+        <CheckBox x:Name ="CodsworthButton" Content="Enable Codsworth" Grid.Column="1" HorizontalAlignment="Left" Margin="64,35,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FF13F44E" Foreground ="#FF13F44E" FontSize="20" Click="CodsworthButtonClicked" />
+
+        <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="78,56,0,0" Grid.Row="2" VerticalAlignment="Top" Width="153" Foreground ="#FF389D03" BorderBrush="#FF0B0B0B" Height="38" FontSize="20" Background="Black">
+            <ComboBoxItem x:Name="Strength" Content="Strength" IsSelected="True" Background="Black" Selected="ComboBox_Clicked"/>
+            <ComboBoxItem x:Name="Perception"  Content="Perception" IsSelected="False" Background="Black" Selected="ComboBox_Clicked"/>
+            <ComboBoxItem x:Name="Endurance"  Content="Endurance" IsSelected="False" Background="Black" Selected="ComboBox_Clicked"/>
+            <ComboBoxItem x:Name="Charisma"  Content="Charisma" IsSelected="False" Background="Black" Selected="ComboBox_Clicked"/>
+            <ComboBoxItem x:Name="Intelligence"  Content="Intelligence" IsSelected="False" Background="Black" Selected="ComboBox_Clicked"/>
+            <ComboBoxItem x:Name="Agility"  Content="Agility" IsSelected="False" Background="Black" Selected="ComboBox_Clicked"/>
+            <ComboBoxItem x:Name="Luck"  Content="Luck" IsSelected="False" Background="Black" Selected="ComboBox_Clicked"/>
+        </ComboBox>
+        <Image x:Name ="Codsworth_Img" Source="/Resources/640px-Mister_Handy.png" Grid.Column="2" HorizontalAlignment="Left" Height="Auto" Margin="48,79,0,0" VerticalAlignment="Top" Width="Auto" Grid.RowSpan="3"/>
+
+        <Label Content="Difficulty: " Grid.Column="1" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top" Width="171" RenderTransformOrigin="0.5,0.5" Height="36" Foreground="#FF13F44E" FontSize="20" FontWeight="Bold"/>
+
+
+        <Label Content="S.P.E.C.I.A.L: " Grid.Column="1" HorizontalAlignment="Left" Margin="16,9,0,0" VerticalAlignment="Top" Width="171" RenderTransformOrigin="0.5,0.5" Height="36" Foreground="#FF13F44E" FontSize="20" FontWeight="Bold" Grid.Row="2"/>
+        <Label Content="Add Points: " Grid.Column="1" HorizontalAlignment="Left" Margin="74,111,0,0" VerticalAlignment="Top" Width="234" RenderTransformOrigin="0.5,0.5" Height="36" Foreground="#FF13F44E" FontSize="20" FontWeight="Bold" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+
+
+        <TextBlock x:Name ="sliderValue" Text="{Binding ElementName=slider, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="2" Margin="48,5,73,55" Grid.Row="3" FontSize="20" FontWeight="Bold"/>
+        <Slider IsSnapToTickEnabled ="True" x:Name="slider" Minimum="0" Maximum="5" Grid.Row="3" Grid.ColumnSpan="2" Margin="82,56,118,10" Grid.Column="1" FontSize="20" ValueChanged="slider_ValueChanged"/>
+
+        <Image x:Name ="StartScreen2_Img" Source="/Resources/StartScreen2.png" HorizontalAlignment="Left" Height="444" Margin="1,0,0,0" VerticalAlignment="Top" Width="650" Grid.RowSpan="4" Grid.ColumnSpan="2" Grid.Column="1"/>
+
+    </Grid>
+</Window>
