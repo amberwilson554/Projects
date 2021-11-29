@@ -1,0 +1,16 @@
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\bin\Debug\net5.0\Cone_HourGlass.exe
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\bin\Debug\net5.0\Cone_HourGlass.deps.json
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\bin\Debug\net5.0\Cone_HourGlass.runtimeconfig.json
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\bin\Debug\net5.0\Cone_HourGlass.runtimeconfig.dev.json
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\bin\Debug\net5.0\Cone_HourGlass.dll
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\bin\Debug\net5.0\ref\Cone_HourGlass.dll
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\bin\Debug\net5.0\Cone_HourGlass.pdb
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\obj\Debug\net5.0\Cone_HourGlass.csproj.AssemblyReference.cache
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\obj\Debug\net5.0\Cone_HourGlass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\obj\Debug\net5.0\Cone_HourGlass.AssemblyInfoInputs.cache
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\obj\Debug\net5.0\Cone_HourGlass.AssemblyInfo.cs
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\obj\Debug\net5.0\Cone_HourGlass.csproj.CoreCompileInputs.cache
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\obj\Debug\net5.0\Cone_HourGlass.dll
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\obj\Debug\net5.0\ref\Cone_HourGlass.dll
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\obj\Debug\net5.0\Cone_HourGlass.pdb
+C:\Users\Amber\source\repos\Cone_HourGlass\Cone_HourGlass\obj\Debug\net5.0\Cone_HourGlass.genruntimeconfig.cache

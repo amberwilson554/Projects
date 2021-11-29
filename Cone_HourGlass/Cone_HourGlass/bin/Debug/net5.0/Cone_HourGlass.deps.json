@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Cone_HourGlass/1.0.0": {
+        "runtime": {
+          "Cone_HourGlass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cone_HourGlass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
